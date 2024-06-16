@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rps1.0</title>
+    <link rel = "stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class = "arena">
+        <img id = "player-move" src="images/p.png">
+        <img id = "opponent-move" class = "flipped">
+    </div>
+    <div class = "choice">
+        <button id = "rock-button"><img class="choice-button rock-button" src="images/r.png"></button>
+        <button id = "paper-button"><img class = "choice-button paper-button" src="images/p.png"></button>
+        <button id = "scissors-button"><img class="choice-button scissors-button" src="images/s.png"></button>
+    </div>
+
+    <div class="scoreboard">
+        <div class="player people">
+            <p>Score : </p>
+            <p id = "player-score"></p>
+        </div>
+
+        <div class="computer people">
+            <p>Opponent Score : </p>
+            <p id = "opponent-score"></p>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
